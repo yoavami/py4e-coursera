@@ -13,6 +13,6 @@ data = '''
 }       
 '''
 
-info = json.loads()
+info = json.loads(data)
 print('Name:', info["name"])
 print('Hide:',  info["email"]["hide"])
